@@ -9,4 +9,4 @@ Projects
 <sub>Displays only one screen with imageView, without any constraints yet.</sub>
 
 [Project 2](https://github.com/Bruzya/iOSAppDevelopmentMarathon/tree/develop/P02-Dicee) - *Dicee*  
-<sub>Get a random dices by button roll</sub>
+<sub>Get a random dices by tap the button roll</sub>
