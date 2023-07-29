@@ -17,6 +17,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
+        print("Start")
+        sender.alpha = 0.5
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            sender.alpha = 1
+            print("End")
+        }
+        
         playSound(sender.currentTitle!)
     }
     
