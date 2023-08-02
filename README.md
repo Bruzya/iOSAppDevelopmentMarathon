@@ -1,4 +1,4 @@
-# iOSAppDevelopmentMarathon
+# iOSAppDevelopmentMarathon by DevRush Community
 Based on course iOS &amp; Swift - The Complete iOS App Development Bootcamp by Angela Yu.
 
 https://www.udemy.com/course/ios-13-app-development-bootcamp/
@@ -12,6 +12,8 @@ Projects                                                                        
 [Project 4](P04-CalculatorLayout) - *CalculatorLayout*  <br/> <sub> Testing Project without any functionality. <br/> Just trying to figure it out how does constraints in common with Stack Views, SubView works. </sub>                                         | ![calculatorAutoLayout](https://github.com/Bruzya/iOSAppDevelopmentMarathon/assets/100489953/1b1dd2ae-14b0-49e5-a7c2-bec967bb62b8) |
 [Project 5](P05-Xylophone) - *Xylophone*  <br/> <sub> Similarity to original xylophone. Reproduces a song on each tile. <br/> Using AVFoundation, GCD delay change the alpha on the tile. </sub>                                         | ![xylophone](https://github.com/Bruzya/iOSAppDevelopmentMarathon/assets/100489953/53461421-a07f-4638-946d-eb0d60ebcf5c) |
 [Project 6](P06-EggTimer) - *EggTimer*  <br/> <sub> An EggTimer. Nothing to add. Displaying how much remaind of the egg boiling stage with the sound of readiness at the end. <br/> Using NSTimer, AvFoundation, ProgressView. </sub>                                         | ![eggTimer](https://github.com/Bruzya/iOSAppDevelopmentMarathon/assets/100489953/cf360eda-536b-4b84-b3cf-0b88ce531900) |
+[Project 7](P07-Quizzler) - *Quizzler*   <br/> <sub> Not so pleasant at the UI, but working good. <br/> Using Struct, mutating aspect, Two-Dimensional Array. For the first time implement the MVC Design Patter. Again practice with NSTimer, ProgressView, Constraints, UIButton etc. <br/> Project includes Multiple Choice Quiz Challenge as the conclusion, by the way it was not so hard as i supposed... </sub>                                              | ![quizzler](https://github.com/Bruzya/iOSAppDevelopmentMarathon/assets/100489953/dcc52fb5-3b81-45e9-8494-19e79e864daa) | 
+
 
 
 
