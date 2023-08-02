@@ -14,6 +14,7 @@
 		52359DA32A76C9F80014D1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52359DA22A76C9F80014D1B8 /* Assets.xcassets */; };
 		52359DA62A76C9F80014D1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52359DA42A76C9F80014D1B8 /* LaunchScreen.storyboard */; };
 		52359DAE2A79C5CA0014D1B8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52359DAD2A79C5CA0014D1B8 /* Question.swift */; };
+		52359DB62A79DACE0014D1B8 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52359DB52A79DACE0014D1B8 /* QuizBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		52359DA52A76C9F80014D1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52359DA72A76C9F80014D1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52359DAD2A79C5CA0014D1B8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		52359DB52A79DACE0014D1B8 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,57 @@
 		52359D982A76C9F80014D1B8 /* Quizzler */ = {
 			isa = PBXGroup;
 			children = (
+				52359DB32A79DA460014D1B8 /* Applicaton */,
+				52359DB02A79D9D70014D1B8 /* Model */,
+				52359DB12A79DA340014D1B8 /* View */,
+				52359DB22A79DA3D0014D1B8 /* Controller */,
+				52359DB42A79DA5B0014D1B8 /* Supporting Files */,
+			);
+			path = Quizzler;
+			sourceTree = "<group>";
+		};
+		52359DB02A79D9D70014D1B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52359DAD2A79C5CA0014D1B8 /* Question.swift */,
+				52359DB52A79DACE0014D1B8 /* QuizBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52359DB12A79DA340014D1B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52359D9F2A76C9F80014D1B8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52359DB22A79DA3D0014D1B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52359D9D2A76C9F80014D1B8 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52359DB32A79DA460014D1B8 /* Applicaton */ = {
+			isa = PBXGroup;
+			children = (
 				52359D992A76C9F80014D1B8 /* AppDelegate.swift */,
 				52359D9B2A76C9F80014D1B8 /* SceneDelegate.swift */,
-				52359D9D2A76C9F80014D1B8 /* ViewController.swift */,
-				52359DAD2A79C5CA0014D1B8 /* Question.swift */,
-				52359D9F2A76C9F80014D1B8 /* Main.storyboard */,
+			);
+			path = Applicaton;
+			sourceTree = "<group>";
+		};
+		52359DB42A79DA5B0014D1B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				52359DA22A76C9F80014D1B8 /* Assets.xcassets */,
 				52359DA42A76C9F80014D1B8 /* LaunchScreen.storyboard */,
 				52359DA72A76C9F80014D1B8 /* Info.plist */,
 			);
-			path = Quizzler;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52359DB62A79DACE0014D1B8 /* QuizBrain.swift in Sources */,
 				52359D9E2A76C9F80014D1B8 /* ViewController.swift in Sources */,
 				52359DAE2A79C5CA0014D1B8 /* Question.swift in Sources */,
 				52359D9A2A76C9F80014D1B8 /* AppDelegate.swift in Sources */,
@@ -293,7 +337,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6P3D789X98;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Quizzler/Info.plist;
+				INFOPLIST_FILE = "Quizzler/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -325,7 +369,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6P3D789X98;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Quizzler/Info.plist;
+				INFOPLIST_FILE = "Quizzler/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
