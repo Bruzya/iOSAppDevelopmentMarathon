@@ -189,7 +189,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="recalculateButtonPressed:" destination="lkq-xS-Cin" eventType="touchUpInside" id="XbR-RF-KtN"/>
+                                    <action selector="recalculatePressed:" destination="lkq-xS-Cin" eventType="touchUpInside" id="XbR-RF-KtN"/>
                                 </connections>
                             </button>
                         </subviews>
