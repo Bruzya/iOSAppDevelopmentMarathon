@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		5274C0FD2A7E8E11006D3E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274C0FC2A7E8E11006D3E1A /* AppDelegate.swift */; };
 		5274C0FF2A7E8E11006D3E1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274C0FE2A7E8E11006D3E1A /* SceneDelegate.swift */; };
-		5274C1012A7E8E11006D3E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274C1002A7E8E11006D3E1A /* ViewController.swift */; };
+		5274C1012A7E8E11006D3E1A /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274C1002A7E8E11006D3E1A /* CalculateViewController.swift */; };
 		5274C1042A7E8E11006D3E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5274C1022A7E8E11006D3E1A /* Main.storyboard */; };
 		5274C1062A7E8E12006D3E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5274C1052A7E8E12006D3E1A /* Assets.xcassets */; };
 		5274C1092A7E8E12006D3E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5274C1072A7E8E12006D3E1A /* LaunchScreen.storyboard */; };
+		5274C11B2A7EA792006D3E1A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274C11A2A7EA792006D3E1A /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5274C0F92A7E8E11006D3E1A /* BMICalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMICalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5274C0FC2A7E8E11006D3E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5274C0FE2A7E8E11006D3E1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5274C1002A7E8E11006D3E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5274C1002A7E8E11006D3E1A /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		5274C1032A7E8E11006D3E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5274C1052A7E8E12006D3E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5274C1082A7E8E12006D3E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5274C10A2A7E8E12006D3E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5274C11A2A7EA792006D3E1A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = BMICalculator/Controller/ResultViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +85,8 @@
 		5274C1122A7E8EE1006D3E1A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5274C1002A7E8E11006D3E1A /* ViewController.swift */,
+				5274C1002A7E8E11006D3E1A /* CalculateViewController.swift */,
+				5274C11A2A7EA792006D3E1A /* ResultViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,7 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5274C1012A7E8E11006D3E1A /* ViewController.swift in Sources */,
+				5274C11B2A7EA792006D3E1A /* ResultViewController.swift in Sources */,
+				5274C1012A7E8E11006D3E1A /* CalculateViewController.swift in Sources */,
 				5274C0FD2A7E8E11006D3E1A /* AppDelegate.swift in Sources */,
 				5274C0FF2A7E8E11006D3E1A /* SceneDelegate.swift in Sources */,
 			);
