@@ -58,7 +58,7 @@
 			children = (
 				5274C1132A7E8EE6006D3E1A /* Application */,
 				5274C1102A7E8ED5006D3E1A /* Model */,
-				5274C1112A7E8EDE006D3E1A /* View */,
+				5274C1112A7E8EDE006D3E1A /* Views */,
 				5274C1122A7E8EE1006D3E1A /* Controller */,
 				5274C1142A7E8EEA006D3E1A /* Supporting Files */,
 			);
@@ -72,12 +72,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		5274C1112A7E8EDE006D3E1A /* View */ = {
+		5274C1112A7E8EDE006D3E1A /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				5274C1022A7E8E11006D3E1A /* Main.storyboard */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5274C1122A7E8EE1006D3E1A /* Controller */ = {
