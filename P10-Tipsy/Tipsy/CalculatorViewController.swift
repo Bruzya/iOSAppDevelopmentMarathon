@@ -42,11 +42,11 @@ class CalculatorViewController: UIViewController {
         } else if tenPercentButton.isSelected {
             result = Double(textField)! / Double(splitNumber)!
             tip = 10
-            result *= tip / 100
+            result *= tip / 10
         } else {
             result = Double(textField)! / Double(splitNumber)!
             tip = 20
-            result *= tip / 100
+            result *= tip / 10
         }
         performSegue(withIdentifier: "goToResult", sender: self)
     }
