@@ -35,6 +35,7 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
+        var tempTip = 0.0
         guard let textField = billTextField.text, !textField.isEmpty else { return }
         guard let splitNumber = splitNumberLabel.text, !splitNumber.isEmpty else { return }
         if zeroPercentButton.isSelected {
@@ -43,11 +44,13 @@ class CalculatorViewController: UIViewController {
         } else if tenPercentButton.isSelected {
             result = Double(textField)! / Double(splitNumber)!
             tip = 10
-            result *= tip / 10
+            tempTip = result * (tip / 100)
+            result += tempTip
         } else {
             result = Double(textField)! / Double(splitNumber)!
             tip = 20
-            result *= tip / 10
+            tempTip = result * (tip / 100)
+            result += tempTip
         }
         performSegue(withIdentifier: "goToResult", sender: self)
     }
