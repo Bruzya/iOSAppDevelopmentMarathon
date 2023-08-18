@@ -39,6 +39,7 @@ class CalculatorViewController: UIViewController {
         guard let splitNumber = splitNumberLabel.text, !splitNumber.isEmpty else { return }
         if zeroPercentButton.isSelected {
             result = Double(textField)! / Double(splitNumber)!
+            tip = 0
         } else if tenPercentButton.isSelected {
             result = Double(textField)! / Double(splitNumber)!
             tip = 10
