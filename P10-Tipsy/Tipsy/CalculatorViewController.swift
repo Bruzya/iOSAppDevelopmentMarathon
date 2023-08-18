@@ -24,18 +24,10 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func tipChanged(_ sender: UIButton) {
+        zeroPercentButton.isSelected = false
+        tenPercentButton.isSelected = false
+        twentyPercentButton.isSelected = false
         sender.isSelected = true
-        if sender == zeroPercentButton {
-            tenPercentButton.isSelected = false
-            twentyPercentButton.isSelected = false
-        } else if sender == tenPercentButton {
-            zeroPercentButton.isSelected = false
-            twentyPercentButton.isSelected = false
-        } else {
-            zeroPercentButton.isSelected = false
-            tenPercentButton.isSelected = false
-        }
-        
     }
     
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
@@ -49,12 +41,12 @@ class CalculatorViewController: UIViewController {
             result = Double(textField)! / Double(splitNumber)!
         } else if tenPercentButton.isSelected {
             result = Double(textField)! / Double(splitNumber)!
-            tip = result * 0.1
-            result += tip
+            tip = 10
+            result *= tip / 100
         } else {
             result = Double(textField)! / Double(splitNumber)!
-            tip = result * 0.2
-            result += tip
+            tip = 20
+            result *= tip / 100
         }
         performSegue(withIdentifier: "goToResult", sender: self)
     }
