@@ -20,4 +20,3 @@ class WeatherViewController: UIViewController {
 
 
 }
-
