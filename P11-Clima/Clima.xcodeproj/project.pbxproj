@@ -16,6 +16,7 @@
 		52748B0B2A9A7A7600597884 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52748B0A2A9A7A7600597884 /* WeatherManager.swift */; };
 		52748B0E2A9A7C0A00597884 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52748B0D2A9A7C0A00597884 /* Constants.swift */; };
 		52748B102A9A95A000597884 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52748B0F2A9A95A000597884 /* WeatherData.swift */; };
+		52748B122A9A9DAC00597884 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52748B112A9A9DAC00597884 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		52748B0A2A9A7A7600597884 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		52748B0D2A9A7C0A00597884 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		52748B0F2A9A95A000597884 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		52748B112A9A9DAC00597884 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				52748B0A2A9A7A7600597884 /* WeatherManager.swift */,
 				52748B0F2A9A95A000597884 /* WeatherData.swift */,
+				52748B112A9A9DAC00597884 /* WeatherModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				5272EC972A8FF64300075360 /* WeatherViewController.swift in Sources */,
 				5272EC932A8FF64300075360 /* AppDelegate.swift in Sources */,
 				5272EC952A8FF64300075360 /* SceneDelegate.swift in Sources */,
+				52748B122A9A9DAC00597884 /* WeatherModel.swift in Sources */,
 				52748B0E2A9A7C0A00597884 /* Constants.swift in Sources */,
 				52748B102A9A95A000597884 /* WeatherData.swift in Sources */,
 				52748B0B2A9A7A7600597884 /* WeatherManager.swift in Sources */,
