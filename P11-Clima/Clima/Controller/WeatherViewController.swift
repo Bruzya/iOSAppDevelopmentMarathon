@@ -40,6 +40,7 @@ class WeatherViewController: UIViewController {
 //MARK: - WeatherManagerDelegate
 
 extension WeatherViewController: WeatherManagerDelegate {
+    
     func didUpdateWeather(_ weatherManager: WeatherManager, weather: WeatherModel) {
         DispatchQueue.main.async {
             self.temperatureLabel.text = weather.temperatureString
@@ -56,6 +57,7 @@ extension WeatherViewController: WeatherManagerDelegate {
 //MARK: - UITextFieldDelegate
 
 extension WeatherViewController: UITextFieldDelegate {
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         searchTextField.endEditing(true)
         return true
@@ -72,7 +74,6 @@ extension WeatherViewController: UITextFieldDelegate {
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        
         if let city = searchTextField.text {
             weatherManager.fetchWeather(cityName: city)
         }
