@@ -7,7 +7,7 @@
 
 import Foundation
 
+//MARK: - CoinDataModel
 struct CoinData: Decodable {
-    
     let rate: Double
 }
