@@ -101,10 +101,8 @@
 		521BD01D2AB382E100BB4D73 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				521BD0212AB38A2300BB4D73 /* Authentication */,
 				521BD0122AB382A700BB4D73 /* ChatViewController.swift */,
-				521BD0132AB382A700BB4D73 /* LoginViewController.swift */,
-				521BD0142AB382A700BB4D73 /* RegisterViewController.swift */,
-				521BD0152AB382A700BB4D73 /* WelcomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -114,6 +112,16 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		521BD0212AB38A2300BB4D73 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				521BD0152AB382A700BB4D73 /* WelcomeViewController.swift */,
+				521BD0142AB382A700BB4D73 /* RegisterViewController.swift */,
+				521BD0132AB382A700BB4D73 /* LoginViewController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
