@@ -89,10 +89,10 @@
 		521BD01B2AB382C100BB4D73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				521BD0222AB39B3A00BB4D73 /* GoogleService-Info.plist */,
 				521BD0072AB3821F00BB4D73 /* Assets.xcassets */,
 				521BD0092AB3821F00BB4D73 /* LaunchScreen.storyboard */,
 				521BD00C2AB3821F00BB4D73 /* Info.plist */,
-				521BD0222AB39B3A00BB4D73 /* GoogleService-Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
