@@ -19,6 +19,7 @@
 		521BD0232AB39B3A00BB4D73 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 521BD0222AB39B3A00BB4D73 /* GoogleService-Info.plist */; };
 		521BD0262AB39D2100BB4D73 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 521BD0252AB39D2100BB4D73 /* FirebaseAuth */; };
 		521BD0282AB39D2100BB4D73 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 521BD0272AB39D2100BB4D73 /* FirebaseFirestore */; };
+		521BD02A2ABC6C2C00BB4D73 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BD0292ABC6C2C00BB4D73 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		521BD0142AB382A700BB4D73 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		521BD0152AB382A700BB4D73 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		521BD0222AB39B3A00BB4D73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		521BD0292ABC6C2C00BB4D73 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				521BD01E2AB382EA00BB4D73 /* Model */,
 				521BD01C2AB382CA00BB4D73 /* View */,
 				521BD01D2AB382E100BB4D73 /* Controllers */,
+				521BD02C2ABC6D9100BB4D73 /* Extensions */,
 				521BD01B2AB382C100BB4D73 /* Supporting Files */,
 			);
 			path = FlashChat;
@@ -129,6 +132,14 @@
 				521BD0132AB382A700BB4D73 /* LoginViewController.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		521BD02C2ABC6D9100BB4D73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				521BD0292ABC6C2C00BB4D73 /* Constants.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 				521BD0162AB382A700BB4D73 /* ChatViewController.swift in Sources */,
 				521BD0182AB382A700BB4D73 /* RegisterViewController.swift in Sources */,
 				521BD0172AB382A700BB4D73 /* LoginViewController.swift in Sources */,
+				521BD02A2ABC6C2C00BB4D73 /* Constants.swift in Sources */,
 				521BD0012AB3821E00BB4D73 /* SceneDelegate.swift in Sources */,
 				521BD0192AB382A700BB4D73 /* WelcomeViewController.swift in Sources */,
 			);
