@@ -20,6 +20,7 @@
 		521BD0262AB39D2100BB4D73 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 521BD0252AB39D2100BB4D73 /* FirebaseAuth */; };
 		521BD0282AB39D2100BB4D73 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 521BD0272AB39D2100BB4D73 /* FirebaseFirestore */; };
 		521BD02A2ABC6C2C00BB4D73 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BD0292ABC6C2C00BB4D73 /* Constants.swift */; };
+		521BD02E2ABC70A500BB4D73 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BD02D2ABC70A500BB4D73 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		521BD0152AB382A700BB4D73 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		521BD0222AB39B3A00BB4D73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		521BD0292ABC6C2C00BB4D73 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		521BD02D2ABC70A500BB4D73 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		521BD01E2AB382EA00BB4D73 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				521BD02D2ABC70A500BB4D73 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				521BD0182AB382A700BB4D73 /* RegisterViewController.swift in Sources */,
 				521BD0172AB382A700BB4D73 /* LoginViewController.swift in Sources */,
 				521BD02A2ABC6C2C00BB4D73 /* Constants.swift in Sources */,
+				521BD02E2ABC70A500BB4D73 /* Message.swift in Sources */,
 				521BD0012AB3821E00BB4D73 /* SceneDelegate.swift in Sources */,
 				521BD0192AB382A700BB4D73 /* WelcomeViewController.swift in Sources */,
 			);
