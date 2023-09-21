@@ -18,7 +18,7 @@ class WelcomeViewController: UIViewController {
        
         titleLabel.text = ""
         var charIndex = 0.0
-        let titleText = "⚡️FlashChat"
+        let titleText = K.appName
         //label animation symbol by symbol
         for char in titleText {
             Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false) { timer in
