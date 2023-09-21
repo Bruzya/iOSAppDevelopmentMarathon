@@ -21,6 +21,8 @@
 		521BD0282AB39D2100BB4D73 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 521BD0272AB39D2100BB4D73 /* FirebaseFirestore */; };
 		521BD02A2ABC6C2C00BB4D73 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BD0292ABC6C2C00BB4D73 /* Constants.swift */; };
 		521BD02E2ABC70A500BB4D73 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BD02D2ABC70A500BB4D73 /* Message.swift */; };
+		521BD0312ABC7B5900BB4D73 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BD02F2ABC7B5900BB4D73 /* MessageCell.swift */; };
+		521BD0322ABC7B5900BB4D73 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521BD0302ABC7B5900BB4D73 /* MessageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		521BD0222AB39B3A00BB4D73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		521BD0292ABC6C2C00BB4D73 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		521BD02D2ABC70A500BB4D73 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		521BD02F2ABC7B5900BB4D73 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		521BD0302ABC7B5900BB4D73 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				521BD0042AB3821E00BB4D73 /* Main.storyboard */,
+				521BD02F2ABC7B5900BB4D73 /* MessageCell.swift */,
+				521BD0302ABC7B5900BB4D73 /* MessageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +218,7 @@
 			files = (
 				521BD00B2AB3821F00BB4D73 /* LaunchScreen.storyboard in Resources */,
 				521BD0232AB39B3A00BB4D73 /* GoogleService-Info.plist in Resources */,
+				521BD0322ABC7B5900BB4D73 /* MessageCell.xib in Resources */,
 				521BD0082AB3821F00BB4D73 /* Assets.xcassets in Resources */,
 				521BD0062AB3821E00BB4D73 /* Main.storyboard in Resources */,
 			);
@@ -226,6 +233,7 @@
 			files = (
 				521BCFFF2AB3821E00BB4D73 /* AppDelegate.swift in Sources */,
 				521BD0162AB382A700BB4D73 /* ChatViewController.swift in Sources */,
+				521BD0312ABC7B5900BB4D73 /* MessageCell.swift in Sources */,
 				521BD0182AB382A700BB4D73 /* RegisterViewController.swift in Sources */,
 				521BD0172AB382A700BB4D73 /* LoginViewController.swift in Sources */,
 				521BD02A2ABC6C2C00BB4D73 /* Constants.swift in Sources */,
