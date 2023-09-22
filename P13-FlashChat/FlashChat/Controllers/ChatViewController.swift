@@ -17,11 +17,7 @@ class ChatViewController: UIViewController {
     
     //MARK: - Properties
     let db = Firestore.firestore()
-    var messages: [Message] = [
-        Message(sender: "1@2.com", body: "Hey!"),
-        Message(sender: "a@b.com", body: "Hello!"),
-        Message(sender: "1@2.com", body: "What's up?")
-    ]
+    var messages: [Message] = []
     
     //MARK: - Lifecycle
     override func viewDidLoad() {
@@ -32,9 +28,35 @@ class ChatViewController: UIViewController {
         navigationItem.hidesBackButton = true
         
         tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
+        loadMessages()
     }
     
     //MARK: - Methods
+    
+    func loadMessages() {
+        messages = []
+        
+        db.collection(K.FStore.collectionName).getDocuments { querySnapshot, error in
+            if let error {
+                print("There was an issue retrieving data from Firestore. \(error.localizedDescription)")
+            } else {
+                if let snapshotDocuments = querySnapshot?.documents {
+                    for doc in snapshotDocuments {
+                        let data = doc.data()
+                        if let messageSender = data[K.FStore.senderField] as? String, let messageBody = data[K.FStore.bodyField] as? String {
+                            let newMessage = Message(sender: messageSender, body: messageBody)
+                            self.messages.append(newMessage)
+                            
+                            DispatchQueue.main.async {
+                                self.tableView.reloadData()
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
     @IBAction func sendPressed(_ sender: UIButton) {
         if let messageBody = messageTextfield.text, let messageSender = Auth.auth().currentUser?.email {
             db.collection(K.FStore.collectionName).addDocument(data: [
