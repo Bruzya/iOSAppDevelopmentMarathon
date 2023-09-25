@@ -12,6 +12,7 @@
 		521BD0612AC0D46400BB4D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521BD0602AC0D46400BB4D73 /* Assets.xcassets */; };
 		521BD0642AC0D46400BB4D73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521BD0632AC0D46400BB4D73 /* Preview Assets.xcassets */; };
 		521BD06C2AC0D6A200BB4D73 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BD06B2AC0D6A200BB4D73 /* Pacifico-Regular.ttf */; };
+		521BD06F2AC1BDA000BB4D73 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BD06E2AC1BDA000BB4D73 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		521BD0632AC0D46400BB4D73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		521BD06B2AC0D6A200BB4D73 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		521BD06D2AC0D7A800BB4D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		521BD06E2AC1BDA000BB4D73 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				521BD06D2AC0D7A800BB4D73 /* Info.plist */,
 				521BD05C2AC0D46300BB4D73 /* MiCardApp.swift */,
 				521BD05E2AC0D46300BB4D73 /* ContentView.swift */,
+				521BD06E2AC1BDA000BB4D73 /* InfoView.swift */,
 				521BD06A2AC0D69100BB4D73 /* Fonts */,
 				521BD0602AC0D46400BB4D73 /* Assets.xcassets */,
 				521BD0622AC0D46400BB4D73 /* Preview Content */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				521BD05F2AC0D46300BB4D73 /* ContentView.swift in Sources */,
+				521BD06F2AC1BDA000BB4D73 /* InfoView.swift in Sources */,
 				521BD05D2AC0D46300BB4D73 /* MiCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
