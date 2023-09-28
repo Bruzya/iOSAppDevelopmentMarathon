@@ -16,7 +16,9 @@ Projects                                                                        
 [Project 8](P08-Destini) - *Destini*   <br/> <sub> Adventure with a multiple ways of plot development. Challenge based on the previous project. </sub>                                              | ![destini](https://github.com/Bruzya/iOSAppDevelopmentMarathon/assets/100489953/6c552a00-2ce8-4ebf-a571-1fabe87d1891) | 
 [Project 9](P09-BMICalculator) - *BMICalculator*   <br/> <sub> An app calculates a bmi body composition with a fully responsive interface. <br/> Using Classes and inheritance in the View Hierarcly, working with optional operator, MVC, UISlider, segues (present and dismiss). Partial programatically UI at the Result Screen. </sub>                                              | ![bmicalculator](https://github.com/Bruzya/iOSAppDevelopmentMarathon/assets/100489953/fa0b6f86-86f5-419c-94ef-1bdfba2bf2cf) | 
 [Project 10](P10-Tipsy) - *Tipsy*   <br/> <sub> Challenge. Calculate the total amount, taking into account tips for the number of people <br/> Using UITextField, UIStepper, Segue</sub>                                              | ![tipsy](https://github.com/Bruzya/iOSAppDevelopmentMarathon/assets/100489953/66b0386a-1e93-4bfd-aec0-10c6925f0713) | 
-
+[Project 11](P11-Clima) - *Clima*   <br/> <sub> Weather App. </sub>
+[Project 12](P12-ByteCoin) - *ByteCoin*   <br/> <sub> Convert any currency to Bitcoin. </sub>
+[Project 13](P13-FlashChat) - *FlashChat*   <br/> <sub> Messanger. </sub>
 
 
 
