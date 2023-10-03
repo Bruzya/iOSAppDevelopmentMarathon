@@ -17,7 +17,7 @@ Projects                                                                        
 [Project 9](P09-BMICalculator) - *BMICalculator*   <br/> <sub> An app calculates a bmi body composition with a fully responsive interface. <br/> Using Classes and inheritance in the View Hierarcly, working with optional operator, MVC, UISlider, segues (present and dismiss). Partial programatically UI at the Result Screen. </sub>                                              | ![bmicalculator](https://github.com/Bruzya/iOSAppDevelopmentMarathon/assets/100489953/fa0b6f86-86f5-419c-94ef-1bdfba2bf2cf) | 
 [Project 10](P10-Tipsy) - *Tipsy*   <br/> <sub> Challenge. Calculate the total amount, taking into account tips for the number of people <br/> Using UITextField, UIStepper, Segue </sub>                                              | ![tipsy](https://github.com/Bruzya/iOSAppDevelopmentMarathon/assets/100489953/66b0386a-1e93-4bfd-aec0-10c6925f0713) | 
 [Project 11](P11-Clima) - *Clima*   <br/> <sub> Weather App. <br/> Using JSON Parsing, Weather app API </sub>
-[Project 12](P12-ByteCoin) - *ByteCoin*   <br/> <sub> Convert any currency to Bitcoin. Using DataPicker. </sub>
+[Project 12](P12-ByteCoin) - *ByteCoin*   <br/> <sub> Convert any currency to Bitcoin. Using DataPicker, Currency API. </sub>
 [Project 13](P13-FlashChat) - *FlashChat*   <br/> <sub> Messanger. Using Firebase: Firestore, Auth. Cell UI via xib. </sub>
 [Project 14](P14-SwiftUI) - *SwiftUI*   <br/> <sub> A few simple apps on SwuftUI. Simple ImageView. MiCard. Dicee rewritten from UIKit. H4X0R News. </sub>
 
